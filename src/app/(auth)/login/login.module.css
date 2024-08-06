@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  width: 500px;
+  background-color:#d1cdcd;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+  border-radius: 5px;
+  color: black;
+
+}
+
+.github {
+  width: 100%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(110, 85, 85);
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (max-width:380px) {
+  .container{
+  width: 200px;
+  height: 300px;
+  }
+}
